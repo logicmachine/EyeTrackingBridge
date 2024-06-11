@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EyeTrackingBridge.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OscHostname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="OscPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9000</Value>
+    </Setting>
+    <Setting Name="BrokenEyeHostname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="BrokenEyePort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5555</Value>
+    </Setting>
+    <Setting Name="DirectionLimitIn" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="DirectionLimitOut" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="DirectionLimitUp" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="DirectionLimitDown" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="OpennessThresholdClose" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.25</Value>
+    </Setting>
+    <Setting Name="OpennessThresholdOpen" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.75</Value>
+    </Setting>
+    <Setting Name="TransitionTimeClose" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.03</Value>
+    </Setting>
+    <Setting Name="TransitionTimeOpen" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.05</Value>
+    </Setting>
+    <Setting Name="BlinkThreshold" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
